@@ -1,0 +1,40 @@
+/* This is the base CSS file */
+nav {
+  background-color: green;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+}
+a {
+  text-decoration: none;
+}
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: orangered;
+}
+nav a{
+  color: antiquewhite;
+  font-size: 1.2em;
+  letter letter-spacing: 0.2em;
+  justify-content:flex-end;
+}
+.nav-link {
+  color: blue;
+  font-size: 1.2em;
+  margin: 0 0.5em;
+  
+}
+.navbar{
+  background-color: blueviolet;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
